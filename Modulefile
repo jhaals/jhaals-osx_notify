@@ -1,0 +1,6 @@
+name    'jhaals-osx_notify'
+version '0.0.1'
+author 'Johan Haals <johan.haals@gmail.com>'
+license 'Expat License'
+description 'Displays messages in Mac OS X Notification Center using Eloy Duráns terminal-notifier'
+project_page 'https://github.com/JHaals/jhaals-osx_notify'
