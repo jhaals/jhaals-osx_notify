@@ -21,3 +21,22 @@ Usage example
       source   => 'http://apps.example.com/sublime.dmg',
       notify   => Osx_notify['sublime_notify']
     }
+
+
+Send notifications on schedule
+
+
+    include osx_notify
+
+    schedule { 'cake_schedule':
+      range   => '12:00 - 13:00',
+      weekday => 'Friday',
+    }
+
+    osx_notify { 'cake_notice':
+      subject     => 'Cake',
+      message     => "There's cake in the cafeteria, grab some!",
+      refreshonly => false,
+      url         => 'http://en.wikipedia.org/wiki/Cake',
+      schedule    => 'cake_schedule',
+    }
