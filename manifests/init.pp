@@ -1,4 +1,10 @@
-define osx_notify($message, $subject = $name, $url = false, $refreshonly = false, $schedule = false ) {
+define osx_notify (
+  $message,
+  $subject = $name,
+  $url = false,
+  $refreshonly = false,
+  $schedule = false
+  ) {
 
   if versioncmp($::macosx_productversion_major, '10.8') >= 0 {
     include osx_notify::setup
