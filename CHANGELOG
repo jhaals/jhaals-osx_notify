@@ -1,0 +1,3 @@
+0.0.3 ( 2013-02-06 )
+	* Added rspec tests to verify basic functionality.
+	Will possibliy convert functionality into type/provider
