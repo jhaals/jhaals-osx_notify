@@ -1,5 +1,7 @@
 OS X Notify
 ------
+[![Build Status](https://travis-ci.org/JHaals/jhaals-osx_notify.png?branch=master)](https://travis-ci.org/JHaals/jhaals-osx_notify)
+
 This module brings one resource type that let you send notifications to the Notification Center in Mac OS X Mountain Lion.
 
 osx_notify uses the cli created by Eloy Durán https://github.com/alloy/terminal-notifier
