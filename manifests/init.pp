@@ -20,7 +20,7 @@ define osx_notify (
       refreshonly => $refreshonly,
       require     => Package['terminal-notifier'],
       schedule    => $schedule,
-      user        => $first_user,
+      user        => $first_user[0],
     }
   } else {
     notify { $name:

@@ -1,3 +1,9 @@
+0.0.4 ( 2013-02-07 )
+	* Reformatted osx_notify()
+	* Notify first user only
+		Still no good way of sending notifications to multiple users.
+	* Added example image of notification
+
 0.0.3 ( 2013-02-06 )
 	* Added rspec tests to verify basic functionality.
 	Will possibliy convert functionality into type/provider
