@@ -42,3 +42,8 @@ Send notifications on schedule
       url         => 'http://en.wikipedia.org/wiki/Cake',
       schedule    => 'cake_schedule',
     }
+
+
+This is how it looks:
+
+![Example image](http://haals.se/notification_example.png)
